@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-const Login = () => {
+const Login = (props) => {
     return (
         <Container>
             <Content>
                 <CTA> 
                     <CTALogoOne src="/images/cta-logo-one.svg" alt=""/>
-                    <SignUp>Get It All There</SignUp>
+                    <SignUp>Get All There</SignUp>
                     <Description>
                         Get premium access to Raya and the last Dragon for an additional fee with a Disney+ subscription. As of 03/26/21, the price of Disney+ and The disney Bundle will increase by $1.
                     </Description>
